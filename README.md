@@ -3,7 +3,7 @@ A few hooks to make Artistic Style part of git. Prevent un-styled files from bee
 
 To install:
 
-ln -s pre-commit.py .git/hooks/pre-commit
+ln -s ../../pre-commit.py .git/hooks/pre-commit
 
 Edit 'defaultOptions.txt' to point it to your custom astyle options file.
 
